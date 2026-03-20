@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Datos generados y salidas
+data/raw/*
+data/control/*
+data/output/*.md
+data/output/*.html
+!data/output/logs/.gitkeep
+data/output/logs/*.log
+
+# IDE
+.idea/
+.vscode/
